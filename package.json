@@ -1,0 +1,19 @@
+{
+  "name": "react",
+  "version": "0.1.0",
+  "description": "Small react clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snirp/react.git"
+  },
+  "author": "Roy Prins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snirp/react/issues"
+  },
+  "homepage": "https://github.com/snirp/react#readme"
+}
