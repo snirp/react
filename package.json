@@ -4,7 +4,8 @@
   "description": "Small react clone",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/snirp/react/issues"
   },
-  "homepage": "https://github.com/snirp/react#readme"
+  "homepage": "https://github.com/snirp/react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
 }
